@@ -1,0 +1,183 @@
+
+
+*{
+    font-family: 'Secular One', sans-serif;
+    text-align: center;   
+    align-items: center;
+    
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {    
+    width: 960px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: #FDEFEF;
+
+}
+
+.container2 {    
+    width: 960px;
+    height: 1500px;
+    margin: 0 auto;
+    background-color: #FDEFEF;
+
+}
+
+.container3 {    
+    width: 960px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: #FDEFEF;
+
+}
+
+/*************
+*** Header ***
+*************/
+
+#intro {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+
+#intro h1{
+    font-size: 30px;
+    padding: 30px 0 0px 0;
+    text-decoration-line: underline;
+}
+#intro h4{
+    padding: 0px 0 20px 0;
+    font-size: 15px;
+
+}
+
+
+.nav li {
+    float: left;
+    width: 30%;
+    height: 30px;
+    text-align: center;;
+    padding: 10px 0px 10px 0;
+    background-color: #F4DFD0;
+}
+
+.nav li a {
+    transition: color 0.3s;
+}
+.nav li a:hover {
+    color: #AD8B73
+}
+
+/*************
+*** Main ***
+*************/
+
+.aboutme {
+    width: 960px;
+    height: 550px;
+    padding: 0 0 40px 0;
+}
+
+.photo img {
+    float: left;
+    width: 40%;
+    padding: 60px 0 0 100px;
+    
+}
+
+.소개 {
+    float: right;
+    padding: 60px 200px 0 0;
+}
+
+.like{
+    height: 1000px;
+}
+
+.like article h3{
+    text-align: left;
+    padding-left: 100px;
+}
+
+
+
+.like article ul li {
+    float: left;
+    width: 33.3333333%;
+    height: 100px;
+
+    text-align: center;
+
+    padding: 0 0 20px 0;
+}
+
+.game, .movie {
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.movie ul li{
+    float: left;
+    width: 50%;
+    height: 100px;
+
+    text-align: center;
+}
+
+.pictures {
+    width: 200px;
+
+}
+
+.want{
+    align-items: left;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+.want div{
+    padding-bottom: 20px;
+}
+
+.want h3{
+    padding-bottom: 10px;
+}
+    
+
+
+/*************
+*** footer ***
+*************/
+
+footer{
+    padding: 5px 0 80px 0;
+    background-color: #eee0d6
+}
+
+.contact{
+    font-size: 20px;
+    text-align: center;
+    width: 300px;
+    padding: 0 330px 0 330px;
+}
+
+.contact ul li{
+    float: left;
+    width: 33.3333333%;
+}
+
+.contact ul li img{
+    float: left;
+    width: 33.3333333%;
+    size: 20pt;
+}
+
